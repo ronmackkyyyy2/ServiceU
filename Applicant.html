@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Trabahanap</title>
+    <link rel="stylesheet" href="Client.css">
+</head>
+<body background="Gradient.jpg" link="white" alink="white" vlink="black">
+<form action="Database.php" method="POST">
+<div class="client-form">
+    <h1 align='center'>CLIENT FORM</h1>
+   
+    <input type="text" class="input-box"  placeholder="Name" name="name">
+    <input type="text" class="input-box" placeholder="Address" name="address">
+    <input type="tel" class="input-box" placeholder="Phone Number" name="phone number">
+    <input type="text" class="input-box" placeholder="Username" name="username">
+    <input type="password" class="input-box" placeholder="Password" name="password">
+    <input type="email" class="input-box" placeholder="Email Address" name="email address">
+    
+    <fieldset><legend>Gender:</legend>
+        <p><input type="radio" name="Gender" required value="Male" checked> Male </p>
+        <p><input type="radio" name="Gender" required value="Female"> Female </p>
+    </fieldset>
+    
+    <fieldset>
+        <legend>Government Institution</legend>
+            <p><input type="checkbox" name="ID" value="SSS"> SSS </p>
+            <p><input type="checkbox" name="ID" value="PAG-IBIG"> PAG-IBIG </p>
+            <p><input type="checkbox" name="ID" value="Tin ID"> Tin ID </p>
+            <p><input type="checkbox" name="ID" value="Postal ID"> Postal ID </p>
+            <p><input type="checkbox" name="ID" value="Barangay ID"> Barangay ID </p>
+            <p><input type="checkbox" name="ID" value="School ID"> School ID </p>
+    </fieldset>
+          
+    <p><label>Verification (Ex. Actual picture w/ valid ID)<br>
+    <center><textarea rows="8" cols="30" name="comments" maxlength="500" required></textarea></p>
+    <center><p><button><a href="Sign-up1.html" target="_self" style="text-decoration: none">Submit</a></button></p></center>
+    </center>
+</form>
+</body>
+</html>
